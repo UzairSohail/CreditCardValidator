@@ -1,0 +1,49 @@
+.topnav {
+  background-color: rgba(114, 114, 114, 0.342);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 1.5s;
+}
+
+.topnav a:hover {
+  background-color: #3da2b485;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #3da2b4;
+  color: white;
+}
+
+.siteLogo {
+  width: 48.3px;
+  height: auto;
+  background-color: rgba(114, 114, 114, 0.342);
+}
+
+.logoHolder {
+  float: left;
+}
+
+.cf {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  bottom: 20px;
+}
+
+.homeLogo {
+  width: 7vh;
+  height: auto;
+  float: left;
+}
